@@ -17,8 +17,8 @@ def move(board, index, character = "X")
 end
 
 def position_taken?(board, index)
-  (board[index] != " ") || (board[index] != "")
+  (board[index] == " ") || (board[index] == "") ? false : true
 end
 
 
-result = b
+result = score > 40 ? 'Pass' : 'Fail'
