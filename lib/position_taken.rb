@@ -21,4 +21,3 @@ def position_taken?(board, index)
 end
 
 
-result = score > 40 ? 'Pass' : 'Fail'
